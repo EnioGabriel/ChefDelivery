@@ -10,7 +10,6 @@ import SwiftUI
 struct StoreItemView: View {
     
     let order: OrderType
-    @State private var showAlert = false
     
     var body: some View {
         HStack {
@@ -22,15 +21,6 @@ struct StoreItemView: View {
                 .font(.subheadline)
             
             Spacer()
-        }
-        .alert(isPresented: $showAlert) {
-            Alert(
-                title: Text("Loja selecionada"),
-                message: Text("\(order.name)")
-            )
-        }
-        .onTapGesture {
-           showAlert = true
         }
     }
 }
