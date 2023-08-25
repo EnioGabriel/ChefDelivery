@@ -21,6 +21,8 @@
 		82785EF22A98388E00016C4B /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EF12A98388E00016C4B /* StoreItemView.swift */; };
 		82785EF42A983A8E00016C4B /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EF32A983A8E00016C4B /* StoresContainerView.swift */; };
 		82785EF62A98724A00016C4B /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EF52A98724A00016C4B /* StoreDetailView.swift */; };
+		82785EF82A9876ED00016C4B /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EF72A9876ED00016C4B /* StoreType.swift */; };
+		82785EFA2A98777200016C4B /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EF92A98777200016C4B /* ProductType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		82785EF12A98388E00016C4B /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		82785EF32A983A8E00016C4B /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 		82785EF52A98724A00016C4B /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		82785EF72A9876ED00016C4B /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
+		82785EF92A98777200016C4B /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +124,10 @@
 		82785EE32A96D3F700016C4B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				82785EE42A96D41100016C4B /* OrderType.swift */,
 				82785EE62A96D4C200016C4B /* DataSourceMock.swift */,
+				82785EE42A96D41100016C4B /* OrderType.swift */,
+				82785EF92A98777200016C4B /* ProductType.swift */,
+				82785EF72A9876ED00016C4B /* StoreType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				82785EE52A96D41100016C4B /* OrderType.swift in Sources */,
+				82785EFA2A98777200016C4B /* ProductType.swift in Sources */,
 				82785EF62A98724A00016C4B /* StoreDetailView.swift in Sources */,
+				82785EF82A9876ED00016C4B /* StoreType.swift in Sources */,
 				82785ED12A957F6600016C4B /* ContentView.swift in Sources */,
 				82785EE72A96D4C200016C4B /* DataSourceMock.swift in Sources */,
 				82785EEA2A96D73500016C4B /* OrderTypeView.swift in Sources */,
