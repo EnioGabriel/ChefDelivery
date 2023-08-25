@@ -17,6 +17,12 @@ import Foundation
         OrderType(id: 7, name: "Gourmet", image: "gourmet"),
 ]
 
+let bannerMock: [OrderType] = [
+    OrderType(id: 1, name: "banner burguer", image: "barbecue-banner"),
+    OrderType(id: 2, name: "banner prato feito", image: "brazilian-meal-banner"),
+    OrderType(id: 3, name: "banner poke", image: "pokes-banner"),
+]
+
 let storesMock: [StoreType] = [
     StoreType(
         id: 1,
