@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NavigationBar: View {
+struct NavigationBarView: View {
     var body: some View {
         HStack {
             Spacer()
@@ -28,8 +28,8 @@ struct NavigationBar: View {
     }
 }
 
-struct NavigationBar_Previews: PreviewProvider {
+struct NavigationBarView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationBar()
+        NavigationBarView()
     }
 }
