@@ -16,6 +16,10 @@
 		82785EE52A96D41100016C4B /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EE42A96D41100016C4B /* OrderType.swift */; };
 		82785EE72A96D4C200016C4B /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EE62A96D4C200016C4B /* DataSourceMock.swift */; };
 		82785EEA2A96D73500016C4B /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EE92A96D73500016C4B /* OrderTypeView.swift */; };
+		82785EED2A9830EB00016C4B /* CaroselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EEC2A9830EB00016C4B /* CaroselItemView.swift */; };
+		82785EEF2A98346300016C4B /* CaroselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EEE2A98346300016C4B /* CaroselTabView.swift */; };
+		82785EF22A98388E00016C4B /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EF12A98388E00016C4B /* StoreItemView.swift */; };
+		82785EF42A983A8E00016C4B /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82785EF32A983A8E00016C4B /* StoresContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		82785EE42A96D41100016C4B /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
 		82785EE62A96D4C200016C4B /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
 		82785EE92A96D73500016C4B /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		82785EEC2A9830EB00016C4B /* CaroselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaroselItemView.swift; sourceTree = "<group>"; };
+		82785EEE2A98346300016C4B /* CaroselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaroselTabView.swift; sourceTree = "<group>"; };
+		82785EF12A98388E00016C4B /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
+		82785EF32A983A8E00016C4B /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +70,13 @@
 			isa = PBXGroup;
 			children = (
 				82785EDD2A9588C700016C4B /* App */,
-				82785EDC2A9588A300016C4B /* NavigationBar */,
+				82785ED22A957F6700016C4B /* Assets.xcassets */,
+				82785EEB2A9830A700016C4B /* CaroseulView */,
 				82785EE02A95904400016C4B /* GridView */,
 				82785EE32A96D3F700016C4B /* Model */,
-				82785ED22A957F6700016C4B /* Assets.xcassets */,
+				82785EDC2A9588A300016C4B /* NavigationBar */,
 				82785ED42A957F6700016C4B /* Preview Content */,
+				82785EF02A98386F00016C4B /* StoresView */,
 			);
 			path = ChefDelivery;
 			sourceTree = "<group>";
@@ -112,6 +122,24 @@
 				82785EE62A96D4C200016C4B /* DataSourceMock.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		82785EEB2A9830A700016C4B /* CaroseulView */ = {
+			isa = PBXGroup;
+			children = (
+				82785EEC2A9830EB00016C4B /* CaroselItemView.swift */,
+				82785EEE2A98346300016C4B /* CaroselTabView.swift */,
+			);
+			path = CaroseulView;
+			sourceTree = "<group>";
+		};
+		82785EF02A98386F00016C4B /* StoresView */ = {
+			isa = PBXGroup;
+			children = (
+				82785EF12A98388E00016C4B /* StoreItemView.swift */,
+				82785EF32A983A8E00016C4B /* StoresContainerView.swift */,
+			);
+			path = StoresView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,8 +216,12 @@
 				82785ED12A957F6600016C4B /* ContentView.swift in Sources */,
 				82785EE72A96D4C200016C4B /* DataSourceMock.swift in Sources */,
 				82785EEA2A96D73500016C4B /* OrderTypeView.swift in Sources */,
+				82785EF42A983A8E00016C4B /* StoresContainerView.swift in Sources */,
 				82785EE22A95907300016C4B /* OrderTypeGridView.swift in Sources */,
+				82785EF22A98388E00016C4B /* StoreItemView.swift in Sources */,
 				82785ECF2A957F6600016C4B /* ChefDeliveryApp.swift in Sources */,
+				82785EEF2A98346300016C4B /* CaroselTabView.swift in Sources */,
+				82785EED2A9830EB00016C4B /* CaroselItemView.swift in Sources */,
 				82785EDF2A9588F700016C4B /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
