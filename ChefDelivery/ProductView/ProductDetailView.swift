@@ -10,7 +10,6 @@ import SwiftUI
 struct ProductDetailView: View {
     let product: ProductType
     
-    
     var body: some View {
         
         ProductDetailHeaderView(product: product)
